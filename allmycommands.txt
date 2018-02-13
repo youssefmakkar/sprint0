@@ -12,3 +12,11 @@ git push
 
 git rm --cached "3.1.txt"
 git add "3.1.txt"
+git commit -m "third commit after deletion and restoring3.1.txt”
+git push
+
+git checkout -b ReadMe
+
+git add "README.md"
+git status
+git commit -m "README commit into readme branch"
